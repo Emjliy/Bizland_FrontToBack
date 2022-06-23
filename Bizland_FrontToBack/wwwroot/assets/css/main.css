@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-header {
+  background-color: blue;
+}
+
+.main-header .contact {
+  display: block;
+  padding: 13px 10px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.main-header #mail-contact:hover {
+  text-decoration: underline;
+}
+
+.main-header li {
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  opacity: 0.9;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.navbar .nav-link {
+  letter-spacing: 0.1ch;
+}
+
+.navbar .nav-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navbar .dropdown-item {
+  text-align: right;
+  color: lightgrey;
+  text-align: center;
+}
+
+.navbar .dropdown-item:hover {
+  color: blue;
+}
+
+#welcome {
+  background: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg);
+  width: 100;
+  height: 70vh;
+}
+
+#welcome .title h1 {
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+#welcome .title span {
+  color: blue;
+}
+
+#welcome .title h2 {
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+#welcome .title button {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-color: blue;
+  border-radius: 5%;
+  margin-right: 20px;
+}
+
+#welcome .title button:hover {
+  opacity: 0.8;
+}
+
+#welcome .title .watch-video {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#welcome .title .watch-video .fa-solid {
+  color: blue;
+}
+
+#about {
+  background-color: rgba(192, 192, 192, 0.3);
+}
+
+#about .title {
+  text-align: center;
+  opacity: 0.9;
+}
+
+#about .title h2 {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 20px;
+  margin-top: 30px;
+  border-radius: 50%;
+  background: #656ea3;
+  color: #12325b;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+#about .title h3 {
+  margin: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#about .title h3 span {
+  color: blue;
+}
+
+#about .title p {
+  font-weight: 500;
+}
+
+#about .summary {
+  margin-top: 60px;
+}
+
+#about .summary h3 {
+  font-size: 25px;
+  font-weight: 800;
+  opacity: 0.9;
+}
+
+#about .summary h4 {
+  font-weight: 700;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+#about .summary p {
+  opacity: 0.8;
+}
+
+#about .summary .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 35px;
+}
+
+#about .summary i {
+  background: #e9d7d7;
+  font-size: 24px;
+  padding: 20px;
+  margin-right: 15px;
+  color: #082d5e;
+  border-radius: 50px;
+}
+
+#team {
+  background: #a2a3a6;
+}
+
+#team .card-title {
+  text-align: center;
+  opacity: 0.9;
+}
+
+#team .card-title h2 {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 20px;
+  margin-top: 30px;
+  border-radius: 50%;
+  background: #656ea3;
+  color: #12325b;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+#team .card-title h3 {
+  margin: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#team .card-title h3 span {
+  color: blue;
+}
+
+#team .card-title p {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+#team .member-card {
+  margin-top: 30px;
+}
+
+#team .member-card .member-info {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#team .member-card .member-info h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#team .member-card .member-info span {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+#footer .contact h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#footer .contact p {
+  opacity: 0.9;
+}
+
+#footer .links ul {
+  list-style: none;
+}
+
+#footer .links ul li {
+  margin-bottom: 15px;
+}
+
+#footer .links ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer .links .social {
+  float: right;
+}
+
+#footer .links .social a {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+#footer-bottom {
+  background: #a2a3a6;
+}
+
+#footer-bottom .copyright {
+  font-size: 20px;
+}
+
+#footer-bottom .credits {
+  font-size: 13px;
+  color: #444444;
+}
+/*# sourceMappingURL=main.css.map */
